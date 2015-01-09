@@ -26,7 +26,9 @@ defmodule Botixir.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:socket, "~> 0.2.8"}
+      {:socket, "~> 0.2.8"},
+      {:oauth, github: "tim/erlang-oauth"},
+      {:extwitter, "~> 0.2"}
     ]
   end
 end
