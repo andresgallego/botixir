@@ -15,10 +15,10 @@ use Mix.Config
 #       format: "$date $time [$level] $metadata$message\n",
 #       metadata: [:user_id]
 config :ex_twitter, :oauth, [
-	consumer_key: "iWzUgB8qXfjHnE0hhVgLL5xAT",
-	consumer_secret: "5S5Ep5MOcxOgjY64TG8sBBZqZeuNfnfnCxgVrJFncdK3H9rYjk",
-	access_token: "41222090-rOzUch9eCVmoFvzva8mFcQxs6NIr9jTgGqfMs4g1V",
-	access_token_secret: "bEL0yY8kkw0bogQ8MAfr2rTeYa9qSGe1MO31akpLKo242"
+	consumer_key: "LQb1Capfjc05kbJhO5iG9GXAa",
+	consumer_secret: "t77DZeYPuqm04xv1Qwfw05tVQrBLEdMYbzTssDcjYCvwPcdn2k",
+	access_token: "41222090-yctvKAupu3eWcU6bHAXJ52LT7P4v3awWDeBxxPvbV",
+	access_token_secret: "Yusj3LBTFFj7BMj0o9UPbQvd7f9FD0HhhJn4oDRqoinmz"
 ]
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment
