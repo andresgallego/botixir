@@ -5,7 +5,7 @@ defmodule Botixir.Urlify do
     match |> List.flatten
   end
 
-  def call_twitter urls do
-    urls |> Botixir.Twstream.getUrls
+  def call_twitter(fun, text) do
+    fun.(text) |> Botixir.Twstream.getUrls
   end
 end
